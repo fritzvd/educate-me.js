@@ -1,9 +1,15 @@
 # Welcome to our office
 Do you really want to be a software developer? It means painstaking hours of staring at commas, indentation and semicolons only to find out you've made a small typo. 
 
-To start your journey it's good to start with the basics of programming, which are mostly the same in different languages.
+This guide covers a few topics:
+* [Introduction](#introduction)
+* [Tools](#tools)
+* [Learning JavaScript](#learning-javascript)
+* [Learning Python](#python)
 
-There are two paths I've laid out before you. One is the Python path. And the other the JavaScript path.
+
+# Introduction
+Here at Nelen & Schuurmans we use a number of tools and language that we deem a good fit for our company, namely: Python and JavaScript.
 
 Why? The list of things you can do with Python/JavaScript is endless:
 
@@ -17,7 +23,6 @@ Why? The list of things you can do with Python/JavaScript is endless:
 
 The main reason for choosing these languages is that we like code that is easy to read and to maintain, and we like developer productivity. Python also finds very broad support on geographical analysis, which is core to our organization.
 JavaScript is just: inevitable. It runs everywhere, and what you make becomes very portable. Most devices people use daily have a powerful JavaScript engine running: the Browser. The browser, Firefox, Chrome, Edge, supports a number of things out of the box that don't come so easily when you're working on other platforms.
-
 
 # Tools
 Software developers as a rule are very particular about what kind of tools they like to use. And that makes perfect sense. Software development is a very nasty business if we didn't use software to make it easier to write software. Regardless of what type of programmer you will need to use:
@@ -38,15 +43,17 @@ Editors you can use when doing Python/JavaScript in alphabetical order:
 * `vim` - is an open source command line text editor 
 * [Visual Studio Code](https://code.visualstudio.com/) - VS Code is open source and free to use and hack on
 
+Get to know your editor of choice well. Use a cheatsheet to get acquainted with some tools it has. Look for a linter you like (a thing that checks if your code is nice and orderly), this will save you a ton of time.
+
 ### Command line editors
-Command line editors are editors you can use from the terminal, locally or on the server. The above mentioned `vim` or `emacs` usually come pre-installed on most \*nix Operating Systems. If you really don't like using that on a server you can also use `nano`
+Command line editors are editors you can use from the terminal, locally or on the server. The above mentioned `vim` or `emacs` usually come pre-installed on most \*nix Operating Systems. If you really don't like using that on a server you can also use `nano`.
 
 ## Package Manager
 Both platforms make it easy to maintain and release software without the need to download seperate packages, but using a package manager.
 
 JavaScript's defacto package manager is excellent and called [npm](https://npmjs.com). It is the largest collection language-specific software in the world and is packaged with [node](https://nodejs.org).
 
-Python uses [pip](https://pip.pypa.io/en/stable/installing/).
+Python uses [pip](https://pip.pypa.io/en/stable/installing/). You can use it in conjunction with virtualenvwrapper, which is a tool to seperate your packages important to your project from the rest of your system.
 
 # Learning JavaScript
 JavaScript has a superpower that no other language can compete with: it runs in every browser. Which means you can start learning right away without even downloading extra stuff.
